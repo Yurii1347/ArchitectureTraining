@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             }
 // master branch
         }
-            //new code in new branch
+            //Hello from another programmer
 
     }
 }
