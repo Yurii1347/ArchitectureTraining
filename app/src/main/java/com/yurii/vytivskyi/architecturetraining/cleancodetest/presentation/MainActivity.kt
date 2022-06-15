@@ -1,14 +1,12 @@
 package com.yurii.vytivskyi.architecturetraining.cleancodetest.presentation
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import com.yurii.vytivskyi.architecturetraining.cleancodetest.data.repository.UserRepositoryImpl
 import com.yurii.vytivskyi.architecturetraining.cleancodetest.domain.models.SaveUserNameParam
-import com.yurii.vytivskyi.architecturetraining.cleancodetest.domain.repository.UserRepository
 import com.yurii.vytivskyi.architecturetraining.cleancodetest.domain.usecase.GetUserNameUseCase
 import com.yurii.vytivskyi.architecturetraining.cleancodetest.domain.usecase.SaveUserNameUseCase
 import com.yurii.vytivskyi.architecturetraining.databinding.ActivityMainBinding
-
 
 
 class MainActivity : AppCompatActivity() {
@@ -38,6 +36,7 @@ class MainActivity : AppCompatActivity() {
             }
 // master branch
         }
+            //new code in new branch
 
     }
 }
