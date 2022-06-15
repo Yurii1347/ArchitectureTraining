@@ -27,7 +27,14 @@ class MainActivity : AppCompatActivity() {
 
         binding.apply {
 
-           "Hello world"
+            btGetData.setOnClickListener {
+                val text = getUserNameUseCase.execution().firstName+ " " +getUserNameUseCase.execution().lastName
+                tvResult.text = text
+            }
+            btSaveData.setOnClickListener {
+                val param = SaveUserNameParam(edSaveText.text.toString())
+                val text = "Saving data = "+saveUserNameParam.execution(param = param)
+                tvResult.text = text
             }
 
         }
